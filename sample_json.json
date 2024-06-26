@@ -1,0 +1,53 @@
+{
+    "id": 1,
+    "name": "John Doe",
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "state": "IL"
+    },
+    "contacts": [
+      {
+        "type": "email",
+        "detail": "john.doe@example.com"
+      },
+      {
+        "type": "phone",
+        "detail": {
+          "home": "555-1234",
+          "work": "555-5678"
+        }
+      }
+    ],
+    "orders": [
+      {
+        "id": 1001,
+        "items": [
+          {
+            "product_id": "A123",
+            "quantity": 2
+          },
+          {
+            "product_id": "B456",
+            "quantity": 1
+          }
+        ],
+        "total": 50.5
+      },
+      {
+        "id": 1002,
+        "items": [
+          {
+            "product_id": "C789",
+            "quantity": 4
+          }
+        ],
+        "total": 40.0
+      }
+    ],
+    "metadata": {
+      "created_at": "2023-06-01T12:00:00Z",
+      "updated_at": "2023-06-15T15:30:00Z"
+    }
+  }
+  
