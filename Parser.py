@@ -54,7 +54,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Specify the input file details
-input_file_path = "sample_json.json"  # or "path/to/your/input.xml"
+input_file_path = "new_sample.json"  # or "path/to/your/input.xml"
 file_format = "json"  # or "xml"
 row_tag = None  # only used for XML, ignored for JSON
 
